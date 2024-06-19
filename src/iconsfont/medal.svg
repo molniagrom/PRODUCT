@@ -1,0 +1,14 @@
+<svg width="70.000000" height="70.000000" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<circle id="Oval" cx="35.000000" cy="35.000000" r="35.000000" fill="#F78434" fill-opacity="1.000000"/>
+	<circle id="Oval" cx="35.000000" cy="35.000000" r="35.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<path id="Path" d="M39.25 20L46 20L46 27.5L39.25 27.5L39.25 20Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Path" d="M23.5 20L30.25 20L30.25 27.5L23.5 27.5L23.5 20Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<ellipse id="Oval" cx="35.125000" cy="41.000000" rx="4.125000" ry="3.750000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<path id="Shape" d="M25.75 41.375C25.75 36.6116 29.7794 32.75 34.75 32.75C39.7206 32.75 43.75 36.6116 43.75 41.375C43.75 46.1384 39.7206 50 34.75 50C29.7794 50 25.75 46.1384 25.75 41.375ZM28.8931 41.375C28.8931 44.4699 31.5206 46.9878 34.75 46.9878C37.9794 46.9878 40.6069 44.4698 40.6069 41.375C40.6069 38.2801 37.9794 35.7621 34.75 35.7621C31.5206 35.7621 28.8931 38.28 28.8931 41.375Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M30.84 31.39C31.62 31.04 32.42 30.81 33.25 30.67L31.63 29L25 29L28.6 32.75C29.29 32.2 30.04 31.74 30.84 31.39Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Path" d="M36.25 30.67C37.07 30.81 37.87 31.04 38.65 31.39C39.45 31.74 40.2 32.2 40.89 32.75L44.5 29L37.86 29C37.42 29.45 36.82 30.08 36.25 30.67Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

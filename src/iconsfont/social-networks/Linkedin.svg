@@ -1,0 +1,16 @@
+<svg width="20.895508" height="19.973877" viewBox="0 0 20.8955 19.9739" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask2_35" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="5.036774" height="19.973633">
+		<path id="Clip 2" d="M0 0L5.03 0L5.03 19.97L0 19.97L0 0Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask2_35)">
+		<path id="Fill 1" d="M0.26 19.97L4.74 19.97L4.74 6.49L0.26 6.49L0.26 19.97Z" fill="#006699" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask2_35)">
+		<path id="Fill 3" d="M2.53 -0.01C0.99 -0.01 -0.01 1 -0.01 2.32C-0.01 3.62 0.96 4.65 2.47 4.65L2.5 4.65C4.06 4.65 5.03 3.62 5.03 2.32C5 1 4.06 -0.01 2.53 -0.01Z" fill="#006699" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Fill 5" d="M15.73 6.17C13.36 6.17 12.29 7.48 11.7 8.4L11.7 6.49L7.22 6.49L7.22 19.97L11.7 19.97L11.7 12.44C11.7 12.04 11.72 11.64 11.84 11.35C12.17 10.54 12.9 9.71 14.14 9.71C15.76 9.71 16.41 10.95 16.41 12.76L16.41 19.97L20.89 19.97L20.89 12.24C20.89 8.1 18.68 6.17 15.73 6.17Z" fill="#006699" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

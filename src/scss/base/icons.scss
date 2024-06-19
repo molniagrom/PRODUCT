@@ -1,0 +1,42 @@
+%ic {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="_icons-"],
+[class*=" _icons-"]{
+&::before{
+    @extend %ic;
+    display: block;
+}
+}
+
+
+._icon-Combined-Shape:before {
+    content: "\e900";
+  }
+  ._icon-gmail:before {
+    content: "\e901";
+  }
+  ._icon-lines:before {
+    content: "\e902";
+  }
+  ._icon-Oval-Triangle:before {
+    content: "\e903";
+  }
+  ._icon-Rectangle-Star:before {
+    content: "\e904";
+  }
+  ._icon-Star:before {
+    content: "\e905";
+  }
+  ._icon-Triangle:before {
+    content: "\e906";
+  }
+  

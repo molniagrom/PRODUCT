@@ -1,0 +1,13 @@
+<svg width="28.520233" height="19.971191" viewBox="0 0 28.5202 19.9712" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask2_41" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="28.520233" height="19.971191">
+		<path id="Clip 2" d="M0 0L28.52 0L28.52 19.97L0 19.97L0 0Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask2_41)">
+		<path id="Fill 1" d="M27.93 3.12C27.6 1.9 26.64 0.93 25.41 0.61C23.18 0 14.25 0 14.25 0C14.25 0 5.33 0 3.09 0.58C1.89 0.91 0.91 1.9 0.58 3.12C-0.01 5.35 -0.01 9.98 -0.01 9.98C-0.01 9.98 -0.01 14.63 0.58 16.84C0.91 18.06 1.87 19.03 3.09 19.36C5.35 19.97 14.25 19.97 14.25 19.97C14.25 19.97 23.18 19.97 25.41 19.38C26.64 19.05 27.6 18.09 27.93 16.86C28.52 14.63 28.52 10 28.52 10C28.52 10 28.54 5.35 27.93 3.12Z" fill="#FF0000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Fill 4" d="M11.41 14.26L18.84 9.98L11.41 5.7L11.41 14.26Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
