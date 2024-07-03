@@ -9,7 +9,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="_icons-"],
+
 [class*=" _icons-"]{
 &::before{
     @extend %ic;

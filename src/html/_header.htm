@@ -1,5 +1,66 @@
 <header class="header">
-	<div class="header__container">
+  <div class="header__container header__container_wide">
+    <div class="header__column header__column_logo">
+      <a href="#" class="header__logo">Gerícht</a>
+    </div>
+    <div class="header__column header__column_wide">
+      <div class="header__menu menu">
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Pages</a></li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Contact Us</a>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Landing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div data-da=".menu__body,514" class="header__column header__column_auth">
+      <ul class="header__auth auth-header">
+        <li class="auth-header__item">
+          <a href="" class="auth-header__link">Log in / registration</a>
+        </li>
+        <li class="auth-header__item">
+          <a href="" class="auth-header__link">Book Table</a>
+        </li>
+      </ul>
+    </div>
+    <!-- </a> -->
+    <button type="button" class="icon-menu"><span></span></button>
+  </div>
 
-	</div>
+  <!-- .................................................................. -->
+
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const authColumn = document.querySelector(".header__column_auth");
+      const menuBody = document.querySelector(".menu__body");
+      const mediaQuery = window.matchMedia("(max-width: 514px)");
+      const headerContainer = document.querySelector(".header__container");
+      const originalNextElement = document.querySelector(
+        ".header__column_wide"
+      ).nextSibling;
+
+      function moveAuthItems() {
+        if (mediaQuery.matches) {
+          if (!menuBody.contains(authColumn)) {
+            menuBody.appendChild(authColumn);
+          }
+        } else {
+          if (headerContainer.contains(menuBody)) {
+            headerContainer.insertBefore(authColumn, originalNextElement);
+          }
+        }
+      }
+
+      mediaQuery.addListener(moveAuthItems);
+
+      moveAuthItems();
+    });
+  </script> -->
 </header>

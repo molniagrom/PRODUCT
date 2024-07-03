@@ -51,8 +51,8 @@ const config = {
 		static: paths.build,
 		open: true,
 		compress: true,
-		// изнаяально было port: 8080, но терминал выдавал ошибку при npm run dev
-		port: 4000,
+		// изначально было port: 8080, но терминал выдавал ошибку при npm run dev
+		port: 8080,
 		hot: true,
 		watchFiles: [
 			`${paths.src}/**/*.html`,
