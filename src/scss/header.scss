@@ -38,8 +38,9 @@ $mainHover: #dcca87;
 
   &__container {
     // .header__container_wide
-
+ 
     &_wide {
+       z-index: 5;
     }
     align-items: center;
     position: relative;

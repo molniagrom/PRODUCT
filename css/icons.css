@@ -1,4 +1,4 @@
-[class*=" _icons-"]::before {
+[class*=_icon-]:before {
   font-family: "icons";
   font-style: normal;
   font-weight: normal;
@@ -9,8 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class*=" _icons-"]::before {
+[class*=_icon-]:before {
   display: block;
+}: block;
 }
 
 ._icon-Combined-Shape:before {

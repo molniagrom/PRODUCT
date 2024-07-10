@@ -1,3 +1,236 @@
+// динамический адаптив
+$maxWidthContainer: 1300;
+$containerPadding: 30;
+$minWidth: 320;
+$mobileSmall: em(479.98);
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+@mixin adaptiveValue(
+  $property,
+  $startSize,
+  $minSize,
+  $widthFrom: $containerWidth,
+  $widthTo: $minWidth,
+  $keepSize: 0
+) {
+  @if ($widthFrom == $containerWidth and $maxWidthContainer == 0) {
+    $widthFrom: $maxWidth;
+  }
+}
+
+// Подключение общего файла элементов форм
+// @import "base";
+$mobile: em(767.98);
+$mainHover: #dcca87;
 //====================================================================================================
+.mainpage {
+}
+
+.mainpage {
+  // .mainpage__slider
+
+  &__slider {
+  }
+}
+.main-slider {
+  &:nth-of-type(1) {
+    padding-top: 100.2px;
+  }
+  &:nth-of-type(1) {
+    padding-bottom: 70px;
+  }
+  background-color: #0c0d08;
+  display: flex;
+  // .main-slider__container
+
+  &__container {
+    // .main-slider__container_wide
+
+    &_wide {
+      flex: 1 1 auto;
+      position: relative;
+    }
+  }
+
+  // .main-slider__menu
+
+  &__menu {
+  }
+
+  // .main-slider__scroll
+
+  &__scroll {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+  }
+}
+.body-main-slider {
+  // min-height: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  // .body-main-slider__controll
+
+  &__controll {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 88px;
+  }
+
+  // .body-main-slider__swiper
+
+  &__swiper {
+    
+    flex: 1 1 auto;
+    align-items: center;
+  }
+
+  // .body-main-slider__slide
+
+  &__slide {
+    height: 100%; 
+    // background-color: #fff;
+  }
+}
+.slide-main-slider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  // .slide-main-slider__content
+
+  &__content {
+    align-self: center;
+    padding-right: 40px;
+    display: grid;
+    justify-items: start;
+    gap: 32px;
+    // max-width: 590px;
+  }
+
+  // .slide-main-slider__header
+
+  &__header {
+  }
+
+  // .slide-main-slider__text
+
+  &__text {
+    color: rgb(170, 170, 170);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+  }
+
+  // .slide-main-slider__button
+
+  &__button {
+  }
+
+  // .slide-main-slider__image
+
+  &__image-ibg {
+    margin-right: percent(25, 1300);
+    position: relative;
+    max-height: 736px;
+    height: 100%;
+    align-self: center;
+    &::before,
+    &::after {
+      content: "";
+      transition: transform 0.3s ease 0s;
+      position: absolute;
+      background-color: $mainHover;
+      width: percent(435, 619);
+      height: percent(435, 688);
+    }
+    &::before {
+      top: 0;
+      right: 0;
+      transform: translate(25px, -25px);
+    }
+    &::after {
+      bottom: 0;
+      left: 0;
+      transform: translate(-25px, 25px);
+    }
+    img{
+      transition: transform 0.3s ease 0s;
+
+      z-index: 2;
+    }
+     @media (any-hover: hover) {
+      &:hover{
+        &::before {
+          transform: translate(30px, -30px);
+        }
+        &::after {
+          transform: translate(-30px, 30px);
+        }
+        img{
+          transform: scale(1.05);
+        }
+      }
+     }
+  }
+}
+.block-header {
+  // .block-header__headrever
+
+  &__headrever {
+  }
+
+  // .block-header__sub-tittle
+
+  &__sub-tittle {
+  }
+
+  // .block-header__tittle
+
+  &__tittle {
+  }
+}
+.menu-main-slider {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  display: flex;
+  gap: 40px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // .menu-main-slider__link
+
+  &__link {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    // font-size: 18px;
+    // line-height: 175%;
+    // letter-spacing: 0.4em;
+    // color: #fff;
+    transform: rotate(-180deg);
+    writing-mode: vertical-lr;
+    transition: hover 0.3s ease 0s;
+    @media (any-hover: hover) {
+      &:hover {
+        color: $mainHover;
+      }
+    }
+    ._current {
+      color: $mainHover;
+    }
+  }
+}
 
 //====================================================================================================

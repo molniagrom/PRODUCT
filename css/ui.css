@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Upright:300,regular,500,600,700");
+.scroll, .block-header {
+  font-family: "CormorantUpright";
+}
+
+.main-bg {
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: url("@img/main-bg.jpg") center/cover no-repeat;
+}
+
+.block-header {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  text-transform: capitalize;
+}
+.block-header:nth-of-type(1) {
+  justify-items: left;
+}
+.block-header__sub-tittle {
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 0.4em;
+  line-height: 130%;
+}
+.block-header__sub-tittle::before {
+  content: "";
+}
+.block-header__headrever {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.block-header__sub-tittle {
+  text-align: left;
+}
+.block-header__tittle {
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  letter-spacing: 0.3em;
+  color: #dcca87;
+  text-align: left;
+}
+.scroll {
+  color: #dcca87;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  display: grid;
+  justify-items: center;
+  gap: 24px;
+}
+.scroll::before {
+  content: "";
+  background: rgb(220, 202, 135);
+  width: 1px;
+  height: 61px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(66%, rgb(220, 202, 135)), to(rgba(220, 202, 135, 0)));
+  background: linear-gradient(180deg, rgb(220, 202, 135) 66%, rgba(220, 202, 135, 0) 100%);
+}

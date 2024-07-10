@@ -1,16 +1,23 @@
 //<BUTTONS (a.btn+tab)>
 // Снипет (HTML): btn
-
-.button {
-	display: inline-flex;
-	padding: 0px 0px;
-	@media (any-hover: hover) {
-		&:hover {
-		}
-	}
-	&._fw {
-		width: 100%;
-	}
+%cuf {
+  font-family: "CormorantUpright";
 }
-
-
+.button {
+  // display: inline-flex;
+  padding: 8px 32px;
+  font-weight: 700;
+  line-height: 175%;
+  background-color: #dcca87;
+  color: rgb(12, 11, 8);
+  @extend %cuf;
+  transition: background-color 0.2s ease 0s;
+  @media (any-hover: hover) {
+    &:hover {
+		background-color: #ffc800;
+    }
+  }
+//   &._fw {
+//     width: 100%;
+//   }
+}

@@ -1,9 +1,18 @@
 .button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 0px 0px;
+  font-family: "CormorantUpright";
 }
-.button._fw {
-  width: 100%;
+
+.button {
+  padding: 8px 32px;
+  font-weight: 700;
+  line-height: 175%;
+  background-color: #dcca87;
+  color: rgb(12, 11, 8);
+  -webkit-transition: background-color 0.2s ease 0s;
+  transition: background-color 0.2s ease 0s;
+}
+@media (any-hover: hover) {
+  .button:hover {
+    background-color: #ffc800;
+  }
 }

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Upright:300,regular,500,600,700");
+%cuf {
+  font-family: "CormorantUpright";
+}
+$mainHover: #dcca87;
+
+//   ==================================================
+// Глобальный фон
+.main-bg {
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: url("@img/main-bg.jpg") center / cover no-repeat;
+}
+//  Шапка блока
+.block-header {
+  @extend %cuf;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  &:nth-of-type(1) {
+    justify-items: left;
+  }
+  text-transform: capitalize;
+  // .block-header__sub-tittle
+
+  &__sub-tittle {
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 0.4em;
+    line-height: 130%;
+
+    &::before {
+      content: "";
+
+      // нет иконочного шрифта
+      // @extend %ic;
+      // @extend ._icon_spoon;
+    }
+  }
+
+  // .block-header__headrever
+
+  &__headrever {
+    display: flex;
+    gap: 8px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  // .block-header__svg
+
+  &__svg {
+  }
+
+  // .block-header__sub-tittle
+
+  &__sub-tittle {
+    text-align: left;
+  }
+
+  // .block-header__tittle
+
+  &__tittle {
+    font-family: "Cormorant Upright";
+    font-weight: 700;
+    font-size: 70px;
+    // @include adaptiveValue("font-size", 64, 64);
+    line-height: 130%;
+    letter-spacing: 0.3em;
+    color: #dcca87;
+    text-align: left;
+    // text-transform: capitalize;
+  }
+  // .block-header_big
+
+  &_big {
+    // .block-header__tittle {
+    //   font-size: 90px;
+    // }
+  }
+
+  // .block-header_left
+
+  &_left {
+    // justify-items: stretch;
+    // .block-header__sub-tittle {
+    //   justify-items: stretch;
+    // }
+  }
+}
+//   Кнопка скролла и вверх
+.scroll {
+  @extend %cuf;
+  color: $mainHover;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  display: grid;
+  justify-items: center;
+  gap: 24px;
+  &::before {
+    content: "";
+    background: rgb(220, 202, 135);
+    width: 1px;
+    height: 61px;
+    background: linear-gradient(
+      180deg,
+      rgba(220, 202, 135, 1) 66%,
+      rgba(220, 202, 135, 0) 100%
+    );
+  }
+}
