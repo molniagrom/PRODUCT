@@ -16,7 +16,8 @@ EffectFade, Lazy, Manipulation
 */
 
 // Стили Swiper
-import {EffectFade, Pagination} from "swiper/modules";
+import {Navigation, EffectFade, Lazy, Pagination} from "swiper/modules";
+import Swiper from 'swiper';
 // Базовые стили
 import "../../scss/base/swiper.scss";
 // Полный набор стилей из scss/libs/swiper.scss
@@ -50,13 +51,13 @@ function initSliders() {
 		new Swiper('.body-main-slider', {
 			// Подключаем модули слайдера
 			// для конкретного случая
-			modules: [Pagination, EffectFade],
+			modules: [Navigation, Pagination, Lazy, EffectFade],
 			
 			effect: 'fade',
-			autoplay: {
-				delay: 3000,
-				disableOnInteraction: false,
-			},
+			// autoplay: {
+			// 	delay: 3000,
+			// 	disableOnInteraction: false,
+			// },
 		
 			observer: true,
 			observeParents: true,
@@ -66,7 +67,7 @@ function initSliders() {
 			speed: 800,
 			//touchRatio: 0,
 			//simulateTouch: false,
-			//loop: true,
+			loop: true,
 			//preloadImages: false,
 			//lazy: true,
 			// Dotts

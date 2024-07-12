@@ -98,6 +98,12 @@ $mainHover: #dcca87;
 .slide-main-slider {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  opacity: 0 !important;
+  pointer-events: none;
+  &.swiper-slide-active{
+    pointer-events: auto;
+    opacity: 1 !important;
+  }
   // .slide-main-slider__content
 
   &__content {

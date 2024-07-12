@@ -60,6 +60,12 @@
 .slide-main-slider {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.slide-main-slider.swiper-slide-active {
+  pointer-events: auto;
+  opacity: 1 !important;
 }
 .slide-main-slider__content {
   align-self: center;
